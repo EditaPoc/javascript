@@ -34,3 +34,11 @@ var a = 6,
     for(let i = 0; i < vaisiai.length; i++) {
         console.log(vaisiai[i]);
     }
+
+    function prekesKaina (kaina, pavadinimas) {
+        console.log(kaina, 'ikainis');
+        console.log( 'pavadinimas', pavadinimas);
+    }
+
+    prekesKaina(5, 'pyragas');
+    prekesKaina(2, 'agurkai');
